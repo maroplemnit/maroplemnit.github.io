@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
+
         .csection{
             display: flex;
             justify-content: center;
@@ -43,21 +44,17 @@
             font-family: 'Poppins', sans-serif;
             width: 600px;
             height: 332px;
-            margin: 2vw
         }
 
         .imageframe{
             width: 600px;
             height: 332px;
-            background-position: center;
-            background-size: cover;
         }
 
         .imageframeBig{
-            width: 1920px;
-            height: 1080px;
-            background-position: center;
-            background-size: cover;
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
         }
 
         .chiddeninmobile{
@@ -85,9 +82,8 @@
                 width: 100%;
                 height: auto;
                 margin-bottom: 10px;
-                background-position: center;
-                background-size: cover;
             } 
+
             .ctextbox{
                 font-family: 'Poppins', sans-serif;
                 width: 100%;
