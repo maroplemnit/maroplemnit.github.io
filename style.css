@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+        .csection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100px;
+            text-align: center;
+        }
+
+        .chiddenl{
+            opacity :0;
+            filter: blur(5px);
+            transition: all 1.5s;
+            transform: translateX(-10%);
+        }
+        .chiddenr{
+            opacity :0;
+            filter: blur(5px);
+            transition: all 1.5s;
+            transform: translateX(10%);
+        }
+        .chiddenu{
+            opacity :0;
+            filter: blur(5px);
+            transition: all 1.5s;
+            transform: translateY(10%);
+        }
+        .chiddend{
+            opacity :0;
+            filter: blur(5px);
+            transition: all 1.5s;
+            transform: translateY(-10%);
+        }
+
+        .cshow{
+            opacity: 1;
+            filter: blur(0);
+            transform: translateX(0);
+        }
+
+        .ctextbox{
+            font-family: 'Poppins', sans-serif;
+            width: 600px;
+            height: 332px;
+            margin: 2vw
+        }
+
+        .imageframe{
+            width: 600px;
+            height: 332px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .imageframeBig{
+            width: 1920px;
+            height: 1080px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .chiddeninmobile{
+            opacity: 1;
+        }
+
+        .chiddeninweb{
+            display: none;
+        }
+
+        @media(prefers-reduced-motion){
+            .chidden{
+                transition: none;
+            }
+        }
+
+        @media screen and (max-width: 1024px){
+            .csection{
+                display: block;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .imageframe{
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+                background-position: center;
+                background-size: cover;
+            } 
+            .ctextbox{
+                font-family: 'Poppins', sans-serif;
+                width: 100%;
+                height: auto;
+                margin: 1vw;
+            }
+
+            .chiddeninmobile{
+                display: none;
+            }
+
+            .chiddeninweb{
+                display: block;
+            }
+        }
