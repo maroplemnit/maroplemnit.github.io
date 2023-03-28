@@ -1,0 +1,96 @@
+.contact-box{
+	max-width: 100%;
+	display: flex;
+    border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #faf9f6;
+    transition: 0.5s;
+}
+
+.contact-box:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
+}
+
+
+.right{
+	padding: 25px 40px;
+}
+
+input {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: #e0115f;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.5);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+    resize: none;
+    min-height: 150px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+	width: 40%;
+	padding: 0.5rem 1rem;
+	background-color: #e0115f;
+    border-radius: 3px;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.15);
+}
+
+.field:focus{
+    background-color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    
+}
