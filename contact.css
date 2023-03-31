@@ -1,0 +1,119 @@
+.contact-box{
+	max-width: 1024px;
+	display: flex;
+    border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #faf9f6;
+    transition: 0.5s;
+}
+
+.contact-box:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
+}
+
+
+.formdiv{
+	padding: 25px 40px;
+}
+
+input {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+select{
+    width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.5);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+select option [value=""][disabled]{
+    display: none;
+}
+
+.contacttitle{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+.contacttitle:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: #e0115f;
+}
+
+.formfield{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.5);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.formfield:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.formfield:focus{
+    background-color: #fff;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    min-height: 150px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+.submitbtn{
+	width: 40%;
+	padding: 0.5rem 1rem;
+	background-color: #e0115f;
+    border-radius: 3px;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.submitbtn:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.15);
+}
+
+
+@media screen and (max-width: 768px){
+    
+}
