@@ -2,6 +2,12 @@ body{
 	line-height: 200%;
 }
 
+.h2t{
+	font-size: 24pt;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
 .contact-box{
 	max-width: 100%;
 	display: flex;
